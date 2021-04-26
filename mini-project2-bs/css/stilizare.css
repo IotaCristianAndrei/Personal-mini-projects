@@ -1,0 +1,61 @@
+*{
+    background-color: hsl(0, 0%, 94%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img, h2, .text , .carte{
+    background-color: white;
+}
+.carte{
+    margin: 5px;
+    border-top-style: solid;
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+    height: 100%;
+}
+#coloanatext{
+    width: 100%;
+}
+#rand1{
+margin-top:1%;
+}
+.casetatext{
+    text-align: center;
+}
+#rand2{
+    margin-top: 5%;
+}
+#rand3, #rand4{
+    margin:0;
+} 
+#rand4{
+    margin-bottom: 20%;
+}
+#cartesus{
+    border-top-color:hsl(0, 78%, 62%) ;
+}
+#cartest{
+    border-top-color: hsl(180, 62%, 55%) ;
+}
+#cartedr{
+    border-top-color: hsl(212, 86%, 64%);
+}
+#cartejos{
+    border-top-color: hsl(34, 97%, 64%);
+}
+p{
+    font-size: 15px;
+}
+img{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+#cartesus{
+    transform: translateY(20%);
+}
+#cartejos{
+    transform: translateY(-20%);
+}
