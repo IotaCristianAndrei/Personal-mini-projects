@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(257, 40%, 49%) ;
+    background-image: url("../images/bg-desktop.svg");
+    margin: 0px;
+    padding: 0px;
+}
+#row1{
+    margin: 30px;
+}
+#col1{
+    margin-left: 0;
+}
+#logo{
+    float: left;
+}
+#cont{
+    margin-left:5%;
+    margin-top: 6%;
+}
+#coldr{
+    margin-left: 65%;
+    padding: 0;
+    margin-top: -35%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+#register{
+    width:40%;
+    height: 15%;
+    border-radius:50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color:hsl(257, 40%, 49%);
+    border: none;
+    outline: none;
+}
+#register:hover{
+    width:40%;
+    height: 15%;
+    border-radius:50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    border: none;
+}
+i{
+    color: white;
+}
+#sm1, #sm2, #sm3{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: white;
+    margin-left: 20px;
+    outline: none;
+    position: absolute;
+    left: 80%;
+}
+#sm2{
+    left: 84%;
+}
+#sm3{
+    left:88%;
+}
+#butoane{
+    display: inline-block;
+}
+#sm1:hover, #sm2:hover, #sm3:hover{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border-color: hsl(300, 69%, 71%);
+}
+#sm1:hover > #i1{
+    color: hsl(300, 69%, 71%);
+}
+#sm2:hover > #i2{
+    color: hsl(300, 69%, 71%);
+}
+#sm3:hover > #i3{
+    color: hsl(300, 69%, 71%);
+}
+@media screen and (max-width: 768px){
+    .body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+    #coldr{
+        margin-left:20%;
+        margin-top:0;
+    }
+    #img1{
+        margin-left:23%;
+        width: 150%;
+        height: auto;
+        margin-bottom:15%;
+    }
+    #butoane{
+        margin-top:20%;
+        margin-left:0;
+    }
+    #register, #register:hover
+    {
+        width: 100%;
+    }
+    h1{
+        width:150%;
+        text-align: center;
+        display: flex;
+    }
+    p{
+        width:100%;
+        text-align: center;
+        display: flex;
+    }
+    #sm1{
+        left:20%;
+    }
+    #sm2{
+        left:30%;
+    }
+    #sm3{
+        left: 40%;
+    }
+}
